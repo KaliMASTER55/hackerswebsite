@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.search-container {
+    margin: 20px;
+    text-align: center;
+}
+
+#search-input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-container button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.login-container button:hover {
+    background-color: #45a049;
+}
+
+.error-msg {
+    color: red;
+    margin-top: 10px;
+    display: none;
+}
