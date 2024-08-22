@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin panel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="content-section">
+        <h2>Website Content</h2>
+        <div id="content-list">
+            <div class="content-item" id="content-1">
+                <h3>Sample Content 1</h3>
+                <p>This is a sample content section.</p>
+                <button onclick="editContent('content-1')">Edit</button>
+                <button onclick="deleteContent('content-1')">Delete</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="admin-controls">
+        <h2>Admin Controls</h2>
+        <label for="contentTitle">Title:</label>
+        <input type="text" id="contentTitle">
+        <br><br>
+        <label for="contentBody">Body:</label>
+        <textarea id="contentBody"></textarea>
+        <br><br>
+        <button onclick="addContent()">Add Content</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
